@@ -17,9 +17,9 @@ public class CentralDeControle {
         CentralDeControle controle = new CentralDeControle();
 
         // Criando os objetos com suas formas específicas.
-        SmartTV tvDaSala = new SmartTV(nome: "TV da Sala", filme: "Matrix");
-        Celular meuCelular = new Celular(nome: "iPhone 15", musica: "Stairway to Heaven", artista: "Led Zeppelin");
-        RadioAutomotivo radioDoCarro = new RadioAutomotivo(nome: "Rádio do Carro", estacao: 98.9);
+        SmartTV tvDaSala = new SmartTV("TV da Sala", "Matrix");
+        Celular meuCelular = new Celular( "iPhone 15", "Stairway to Heaven",  "Led Zeppelin");
+        RadioAutomotivo radioDoCarro = new RadioAutomotivo( "Rádio do Carro",  98.9);
 
         // USANDO O POLIMORFISMO:
         // O mesmo metodo 'apertarPlay' é chamado com objetos de tipos diferentes,
